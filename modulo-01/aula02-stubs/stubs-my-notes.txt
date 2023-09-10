@@ -1,0 +1,19 @@
+voce esta aplicando testes que dependem de api externa
+que dependem deles, com uso externo.
+
+stubs sao usados para substituir comportanmento
+do sistem por mocks estaticos
+
+example: requisicao de api do CEP, para que os testes
+passem mesmo que a api nao estiver no ar. 
+A logica, objeto do mock, podem ser usados para aquele
+context.
+
+Erro: criar instancia de banco dados para rodar testes 
+que demoram uma eternidade
+
+teste a logica, entrada de dados e aplicacao. 
+para validar se a api externa esta no ar, use outra arquitetura
+
+stubs > define uma funcao que imita o cenario real, mas que no caso
+use apenas a logica local. 

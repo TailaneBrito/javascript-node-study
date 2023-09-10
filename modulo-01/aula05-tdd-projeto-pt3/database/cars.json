@@ -1,0 +1,23 @@
+[
+  {
+    "id": "cf2878e9-3eaf-45a7-ace6-31e229bd6359",
+    "name": "Roadster",
+    "releaseYear": 2022,
+    "available": true,
+    "gasAvailable": true
+  },
+  {
+    "id": "4e7b7ea0-50f6-489e-b40c-620caf3518d1",
+    "name": "A4",
+    "releaseYear": 2022,
+    "available": true,
+    "gasAvailable": true
+  },
+  {
+    "id": "a71625ef-3f3d-4b70-b68e-dfd0976972e1",
+    "name": "Jetta",
+    "releaseYear": 2022,
+    "available": true,
+    "gasAvailable": true
+  }
+]

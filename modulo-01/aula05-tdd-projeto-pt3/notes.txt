@@ -1,0 +1,1 @@
+run 'npm ci' para restaurar todas as dependencias

@@ -1,0 +1,9 @@
+verificam quantas vezes sua fucao foi chamada, com qual parametros
+
+
+o * (asterisco) em frente do metodo retorna por demanda.
+
+yield > manda para quem quiser receber.
+Trabalha com recursao. 
+
+yield * apenas delega a funcao, mas nao retorna o valor.

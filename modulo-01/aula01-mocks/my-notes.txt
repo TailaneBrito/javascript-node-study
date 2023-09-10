@@ -1,0 +1,11 @@
+Mocks > usados em teste de unidade. Nao sao replicados. Partem do principio que A funcionou,
+checa ele e continua o check. Valida o conteudo se esta vazio, no formato correto, possui propriedades
+corretas.
+testes em geral sao como jogos com checkpoints. Iniciando do meio ao fim.
+testes automatizados evitao replicacao de testes
+
+When creating tests start with a TODO List.
+- Input and what I expect from it. See features.txt file.
+
+
+IFEE > funcation que se auto executa

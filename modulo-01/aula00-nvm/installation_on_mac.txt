@@ -1,0 +1,33 @@
+open your terminal (hotkey Command + Space)
+
+1. You need to uninstall node and its dependencies
+
+Run `brew uninstall --ignore-dependencies node`
+and `bew uninstall --force node`
+
+2. Update Brew and Install NVM 
+In your terminal run `brew update`
+
+your brew terminal can be stuck with some errors: 
+1. fatal couldn't find remore ref refs/heads/master
+https://stackoverflow.com/questions/75509911/fatal-couldnt-find-remote-ref-refs-heads-master
+
+and after that run `brew install nvm`
+
+type inside your terminal `brew install nvm`
+wait for it to download
+
+
+nvm --version 
+node -v
+
+lts means long term support (green box, recommended version withou bugs)
+nvm install --lts 
+nvm use 18 
+nvm alias default 18 (defines the default version to be 18)
+
+create a file called .nvmrc and set a node version in there (node version manager)
+nvm use will search for .nvmrc and use the version set in there. 
+
+
+init a nodejs project with npm init -y
